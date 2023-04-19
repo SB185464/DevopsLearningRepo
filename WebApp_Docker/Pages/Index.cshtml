@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p><b> Learning Docker</b></p>
+    <p>Following is the name of the host/container that runs this application:</p>
+    <p>@Environment.MachineName</p>
+</div>
